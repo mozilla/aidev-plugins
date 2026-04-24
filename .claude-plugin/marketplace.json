@@ -5,5 +5,14 @@
     "name": "AI for Development",
     "email": "ai4dev@mozilla.com"
   },
-  "plugins": []
+  "plugins": [
+    {
+      "name": "mdn",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/mdn/mcp.git",
+        "path": "plugin"
+      }
+    }
+  ]
 }
